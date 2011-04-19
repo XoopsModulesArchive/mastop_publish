@@ -1,0 +1,27 @@
+HTTP/1.0 200 OK
+Content-Type: text/xml
+Server: DocumentSpellcheck
+Cache-Control: private, x-gzip-ok=""
+Date: Sat, 13 Jan 2007 20:22:39 GMT
+Connection: Close
+
+<?xml version="1.0"?>
+<spellresult error="0" clipped="0" charschecked="27"><c o="16" l="3" s="0">via	VA	VI	Va	Vi</c><c o="22" l="5" s="1">Praia	pariah	para	Peria	pray</c></spellresult>
+HTTP/1.0 200 OK
+Content-Type: text/xml
+Server: DocumentSpellcheck
+Cache-Control: private, x-gzip-ok=""
+Date: Sat, 13 Jan 2007 20:28:52 GMT
+Connection: Close
+
+<?xml version="1.0"?>
+<spellresult error="0" clipped="0" charschecked="14"><c o="9" l="5" s="0">San to	San-to	Santa	Snot	Saint</c></spellresult>
+HTTP/1.0 200 OK
+Content-Type: text/xml
+Server: DocumentSpellcheck
+Cache-Control: private, x-gzip-ok=""
+Date: Sat, 13 Jan 2007 20:32:56 GMT
+Connection: Close
+
+<?xml version="1.0"?>
+<spellresult error="0" clipped="0" charschecked="5"><c o="0" l="5" s="0">Fern	Ferne	Ferny	Ferns	Fen</c></spellresult>

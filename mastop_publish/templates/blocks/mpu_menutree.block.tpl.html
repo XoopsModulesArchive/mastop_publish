@@ -1,0 +1,72 @@
+<style type="text/css">
+.<{$block.menuID}> ul{
+margin: 0px;
+padding: 0px;
+list-style: none outside;
+}
+
+.<{$block.menuID}> li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+background: url(<{$block.moduleimg}>list.gif) no-repeat left center;
+list-style: none outside;
+padding: 2px;
+padding-left: 22px;
+margin: 0px;
+}
+
+.<{$block.menuID}> li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+background: url(<{$block.moduleimg}>closed.gif) no-repeat left 4px;
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+.<{$block.menuID}> li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.<{$block.menuID}> .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}
+
+/* Sub level menu links style */
+.<{$block.menuID}> ul li a{
+padding: 2px;
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: #<{$block.menuTColor}> !important;
+text-decoration: <{$block.menuU}> !important;
+font-style: <{$block.menuI}> !important;
+font-weight: <{$block.menuN}> !important;
+background: #<{$block.menuBG}> !important;
+}
+
+.<{$block.menuID}> ul li a:hover{
+text-decoration: <{$block.menuOU}> !important;
+font-style: <{$block.menuOI}> !important;
+font-weight: <{$block.menuON}> !important;
+color: #<{$block.menuTOColor}> !important;
+background-color: #<{$block.menuBGO}> !important;
+}
+.<{$block.menuID}> ul li a:visited{
+color: #<{$block.menuVisited}> !important;
+}
+</style>
+<script type="text/javascript">
+var persisteduls=new Object()
+var ddtreemenu=new Object()
+
+ddtreemenu.closefolder="<{$block.moduleimg}>closed.gif" //set image path to "closed" folder image
+ddtreemenu.openfolder="<{$block.moduleimg}>open.gif" //set image path to "open" folder image
+</script>
+<script type="text/javascript" src="<{$block.menusrc}>"></script>
+
+<div class="<{$block.menuID}>">
+<ul id="<{$block.menuID}>1">
+<{if $block.menuHome}>
+<li><a href="<{$xoops_url}>"><{$block.textHome}></a></li>
+<{/if}>
+<{$block.menuTREE}>
+</ul>
+</div>
+<script type="text/javascript">
+ddtreemenu.createTree("<{$block.menuID}>1", true);
+</script>

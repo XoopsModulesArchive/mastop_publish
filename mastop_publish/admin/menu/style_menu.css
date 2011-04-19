@@ -1,0 +1,173 @@
+/*
+Menu related selectors
+*/
+.jsdomenudiv {
+	background-color: #FFFFFF;
+	background-image: url(office_xp_menu_left.png);
+	background-repeat: repeat-y;
+	border: 1px solid #8A867A;
+	cursor: default;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	position: absolute; /* Do not alter this line! */
+	visibility: hidden;
+	z-index: 10;
+}
+
+.jsdomenuitem {
+	background: transparent;
+	border: none;
+	color: #000000;
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-top: 3px;
+	position: relative; /* Do not alter this line! */
+}
+
+.jsdomenuitemover {
+	background-color: #C1D2EE;
+	border: 1px solid #316AC5;
+	color: #000000;
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 12px;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-bottom: 2px;
+	padding-left: 28px;
+	padding-right: 15px;
+	padding-top: 2px;
+	position: relative; /* Do not alter this line! */
+}
+
+.jsdomenuarrow {
+	background-image: url(office_xp_arrow.png);
+	background-repeat: no-repeat; /* Do not alter this line! */
+	height: 7px;
+	position: absolute; /* Do not alter this line! */
+	right: 8px;
+	width: 4px;
+}
+
+.jsdomenuarrowover {
+	background-image: url(office_xp_arrow_o.png);
+	background-repeat: no-repeat; /* Do not alter this line! */
+	height: 7px;
+	position: absolute; /* Do not alter this line! */
+	right: 8px;
+	width: 4px;
+}
+
+.jsdomenusep {
+	padding-left: 28px;
+}
+
+.jsdomenusep hr {
+}
+
+/*
+Menu bar related selectors
+*/
+.jsdomenubardiv {
+	background-image: url(../../../system/images/hbar_middle.gif);
+	background-position: left;
+	background-repeat: repeat-x;
+	border: 0px outset;
+	cursor: default;
+	padding-bottom: 3px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 3px;
+	position: absolute; /* Do not alter this line! */
+	visibility: visible;
+}
+
+.jsdomenubardragdiv {
+	cursor: move;
+	display: inline;
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	position: relative; /* Do not alter this line! */
+	visibility: hidden;
+	width: 9px;
+}
+
+.jsdomenubaritem {
+	border: none;
+	color: #000000;
+	display: inline;
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 2px;
+	padding-left: 24px;
+	padding-right: 10px;
+	padding-top: 2px;
+	position: relative; /* Do not alter this line! */
+}
+
+.jsdomenubaritemover {
+	background-color: #C1D2EE;
+	border: 1px solid #316AC5;
+	color: #000000;
+	display: inline;
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 2px;
+	padding-left: 23px;
+	padding-right: 9px;
+	padding-top: 2px;
+	position: relative; /* Do not alter this line! */
+}
+
+.jsdomenubaritemclick {
+	background-color: #FEFFBF;
+	border: 1px solid #8A867A;
+	color: #000000;
+	display: inline;
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 2px;
+	padding-left: 23px;
+	padding-right: 9px;
+	padding-top: 2px;
+	position: relative; /* Do not alter this line! */
+}
+
+.page {
+	background-image: url(page.gif);
+	background-repeat: no-repeat; /* Do not alter this line! */
+	height: 16px;
+	left: 4px;
+	position: absolute; /* Do not alter this line! */
+	width: 16px;
+}
+.media {
+	background-image: url(media.gif);
+	background-repeat: no-repeat; /* Do not alter this line! */
+	height: 16px;
+	left: 4px;
+	position: absolute; /* Do not alter this line! */
+	width: 16px;
+}
+.opt {
+	background-image: url(opt.gif);
+	background-repeat: no-repeat; /* Do not alter this line! */
+	height: 16px;
+	left: 4px;
+	position: absolute; /* Do not alter this line! */
+	width: 16px;
+}
+.file {
+	background-image: url(file.gif);
+	background-repeat: no-repeat; /* Do not alter this line! */
+	height: 16px;
+	left: 4px;
+	position: absolute; /* Do not alter this line! */
+	width: 16px;
+}
