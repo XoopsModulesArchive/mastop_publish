@@ -7,7 +7,7 @@ CREATE TABLE `mpu_cfi_contentfiles` (
   `cfi_12_exibir` tinyint(1) NOT NULL default '1',
   `cfi_22_data` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`cfi_10_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 CREATE TABLE `mpu_fil_files` (
   `fil_10_id` int(10) unsigned NOT NULL auto_increment,
@@ -18,7 +18,7 @@ CREATE TABLE `mpu_fil_files` (
   `fil_12_exibir` tinyint(1) NOT NULL default '1',
   `fil_22_data` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`fil_10_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 CREATE TABLE `mpu_med_media` (
   `med_10_id` int(10) unsigned NOT NULL auto_increment,
   `med_30_nome` varchar(255) NOT NULL default '',
@@ -30,7 +30,7 @@ CREATE TABLE `mpu_med_media` (
   `med_22_data` int(10) NOT NULL default '0',
   `med_10_tipo` int(1) NOT NULL default '1',
   PRIMARY KEY  (`med_10_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 CREATE TABLE `mpu_mpb_mpublish` (
   `mpb_10_id` int(10) unsigned NOT NULL auto_increment,
   `mpb_10_idpai` int(10) NOT NULL default '0',
@@ -52,4 +52,4 @@ CREATE TABLE `mpu_mpb_mpublish` (
   `mpb_10_contador` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`mpb_10_id`),
   KEY `mpb_10_idpai` (`mpb_10_idpai`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
