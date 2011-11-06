@@ -1,5 +1,5 @@
 <?php
-// $Id: editor_registry.php,v 1.2 2007/05/08 21:30:59 topet05 Exp $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //                XOOPS - PHP Content Management System                      //
 //                    Copyright (c) 2000 XOOPS.org                           //

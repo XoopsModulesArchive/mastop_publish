@@ -1,6 +1,6 @@
 <?php
 /**
- * $Id: tiny_mce_gzip.php,v 1.3 2007/03/10 20:49:10 topet05 Exp $
+ * $Id$
  *
  * @author Moxiecode
  * @copyright Copyright © 2005-2006, Moxiecode Systems AB, All rights reserved.

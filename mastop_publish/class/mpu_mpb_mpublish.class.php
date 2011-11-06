@@ -9,7 +9,7 @@
 ### -------------------------------------------------------------
 ### www.mastop.com.br
 ### =============================================================
-### $Id: mpu_mpb_mpublish.class.php,v 1.8 2007/06/16 22:46:09 kleber Exp $
+### $Id$
 ### =============================================================
 include_once XOOPS_ROOT_PATH."/modules/".MPU_MOD_DIR."/class/mpu_geral.class.php";
 class mpu_mpb_mpublish extends mpu_geral {

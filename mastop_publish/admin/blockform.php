@@ -9,7 +9,7 @@
 ### -------------------------------------------------------------
 ### www.mastop.com.br
 ### =============================================================
-### $Id: blockform.php,v 1.1 2007/06/16 22:41:07 kleber Exp $
+### $Id$
 ### =============================================================
 include_once XOOPS_ROOT_PATH."/class/xoopsformloader.php";
 $form = new XoopsThemeForm($block['form_title'], 'blockform', 'blocksadmin.php', "post", true);

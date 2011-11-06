@@ -9,7 +9,7 @@
 ### -------------------------------------------------------------
 ### www.mastop.com.br
 ### =============================================================
-### $Id: mpu_fil_files.class.php,v 1.1.1.1 2007/01/31 19:30:01 topet05 Exp $
+### $Id$
 ### =============================================================
 include_once XOOPS_ROOT_PATH."/modules/".MPU_MOD_DIR."/class/mpu_geral.class.php";
 class mpu_fil_files extends mpu_geral {

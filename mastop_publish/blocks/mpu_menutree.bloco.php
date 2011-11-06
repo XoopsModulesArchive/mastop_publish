@@ -9,7 +9,7 @@
 ### -------------------------------------------------------------
 ### www.mastop.com.br
 ### =============================================================
-### $Id: mpu_menutree.bloco.php,v 1.3 2007/06/16 22:45:57 kleber Exp $
+### $Id$
 ### =============================================================
 if (!defined('MPU_MOD_DIR')) {
 	if ( file_exists(XOOPS_ROOT_PATH."/modules/".MPU_BLO_MODDIR."/language/".$xoopsConfig['language']."/modinfo.php") ) {

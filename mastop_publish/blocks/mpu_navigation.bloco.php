@@ -9,7 +9,7 @@
 ### -------------------------------------------------------------
 ### www.mastop.com.br
 ### =============================================================
-### $Id: mpu_navigation.bloco.php,v 1.2 2007/02/02 22:06:18 topet05 Exp $
+### $Id$
 ### =============================================================
 if (!defined('MPU_MOD_DIR')) {
 	if ( file_exists(XOOPS_ROOT_PATH."/modules/".MPU_BLO_MODDIR."/language/".$xoopsConfig['language']."/modinfo.php") ) {

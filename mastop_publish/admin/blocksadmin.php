@@ -9,7 +9,7 @@
 ### -------------------------------------------------------------
 ### www.mastop.com.br
 ### =============================================================
-### $Id: blocksadmin.php,v 1.3 2007/06/16 22:40:09 kleber Exp $
+### $Id$
 ### =============================================================
 include_once("admin_header.php");
 if ( !is_object($xoopsUser) || !is_object($xoopsModule) || !$xoopsUser->isAdmin($xoopsModule->mid()) ) {
