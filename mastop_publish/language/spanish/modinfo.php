@@ -1,121 +1,121 @@
 <?php
 ### =============================================================
-### Mastop InfoDigital - Paixão por Internet
+### Mastop InfoDigital - PaixÃ£o por Internet
 ### =============================================================
-### Arquivo de Tradução para Informações do Módulo
+### Arquivo de TraduÃ§Ã£o para InformaÃ§Ãµes do MÃ³dulo
 ### =============================================================
 ### Developer: Fernando Santos (topet05), fernando@mastop.com.br
-### Copyright: Mastop InfoDigital © 2003-2006
+### Copyright: Mastop InfoDigital Â© 2003-2006
 ### -------------------------------------------------------------
 ### www.mastop.com.br
 ### =============================================================
 ### $Id$
 ### =============================================================
-### Traducido por: Carlos Ponce de León 18/03/2007
+### Traducido por: Carlos Ponce de LeÃ³n 18/03/2007
 ### -------------------------------------------------------------
 ### carlos@centropyme.com
 ### =============================================================
 //V1.0
-define("MPU_MOD_NOME", "Mastop Publish");
-define("MPU_MOD_DESC", "¡Cree páginas estáticas en su sitio!");
-define("MPU_MOD_DIR", "mastop_publish");
-define("MPU_MOD_TABELA1", "mpu_mpb_mpublish");
-define("MPU_MOD_TABELA2", "mpu_fil_files");
-define("MPU_MOD_TABELA3", "mpu_med_media");
-define("MPU_MOD_TABELA4", "mpu_cfi_contentfiles");
-define("MPU_MOD_TEMPLATE1", "mpu_index.tpl.html");
-define("MPU_MOD_TEMPLATE1_DESC", "Estructura de página");
-define("MPU_MOD_BLOCOS", "Bloques");
+define("MPU_MOD_NOME","Mastop Publish");
+define("MPU_MOD_DESC","Â¡Cree pÃ¡ginas estÃ¡ticas en su sitio!");
+define("MPU_MOD_DIR","mastop_publish");
+define("MPU_MOD_TABELA1","mpu_mpb_mpublish");
+define("MPU_MOD_TABELA2","mpu_fil_files");
+define("MPU_MOD_TABELA3","mpu_med_media");
+define("MPU_MOD_TABELA4","mpu_cfi_contentfiles");
+define("MPU_MOD_TEMPLATE1","mpu_index.tpl.html");
+define("MPU_MOD_TEMPLATE1_DESC","Estructura de pÃ¡gina");
+define("MPU_MOD_BLOCOS","Bloques");
 
-define("MPU_MOD_BLOCO1", "Menú");
-define("MPU_MOD_BLOCO1_DESC", "Menú Css con submenús");
-define("MPU_MOD_BLOCO1_FILE", "mpu_menucss.bloco.php");
-define("MPU_MOD_BLOCO1_SHOW", "mpu_menucss_exibe");
-define("MPU_MOD_BLOCO1_EDIT", "mpu_menucss_edita");
-define("MPU_MOD_BLOCO1_TEMPLATE", "mpu_menucss.block.tpl.html");
+define("MPU_MOD_BLOCO1","MenÃº");
+define("MPU_MOD_BLOCO1_DESC","MenÃº Css con submenÃºs");
+define("MPU_MOD_BLOCO1_FILE","mpu_menucss.bloco.php");
+define("MPU_MOD_BLOCO1_SHOW","mpu_menucss_exibe");
+define("MPU_MOD_BLOCO1_EDIT","mpu_menucss_edita");
+define("MPU_MOD_BLOCO1_TEMPLATE","mpu_menucss.block.tpl.html");
 
-define("MPU_MOD_BLOCO2", "Navegación");
-define("MPU_MOD_BLOCO2_DESC", "Menú de Navegación");
-define("MPU_MOD_BLOCO2_FILE", "mpu_navigation.bloco.php");
-define("MPU_MOD_BLOCO2_SHOW", "mpu_navigation_exibe");
-define("MPU_MOD_BLOCO2_EDIT", "mpu_navigation_edita");
+define("MPU_MOD_BLOCO2","NavegaciÃ³n");
+define("MPU_MOD_BLOCO2_DESC","MenÃº de NavegaciÃ³n");
+define("MPU_MOD_BLOCO2_FILE","mpu_navigation.bloco.php");
+define("MPU_MOD_BLOCO2_SHOW","mpu_navigation_exibe");
+define("MPU_MOD_BLOCO2_EDIT","mpu_navigation_edita");
 
-define("MPU_MOD_BLOCO3", "Ver también");
-define("MPU_MOD_BLOCO3_DESC", "Muestra las páginas de la misma categoría");
-define("MPU_MOD_BLOCO3_FILE", "mpu_related.bloco.php");
-define("MPU_MOD_BLOCO3_SHOW", "mpu_related_exibe");
-define("MPU_MOD_BLOCO3_EDIT", "mpu_related_edita");
-define("MPU_MOD_BLOCO3_TEMPLATE", "mpu_related.block.tpl.html");
+define("MPU_MOD_BLOCO3","Ver tambiÃ©n");
+define("MPU_MOD_BLOCO3_DESC","Muestra las pÃ¡ginas de la misma categorÃ­a");
+define("MPU_MOD_BLOCO3_FILE","mpu_related.bloco.php");
+define("MPU_MOD_BLOCO3_SHOW","mpu_related_exibe");
+define("MPU_MOD_BLOCO3_EDIT","mpu_related_edita");
+define("MPU_MOD_BLOCO3_TEMPLATE","mpu_related.block.tpl.html");
 
-define("MPU_MOD_BLOCO4", "Menu en Arbol");
-define("MPU_MOD_BLOCO4_DESC", "Menú en Arbol con submenús");
-define("MPU_MOD_BLOCO4_FILE", "mpu_menutree.bloco.php");
-define("MPU_MOD_BLOCO4_SHOW", "mpu_menutree_exibe");
-define("MPU_MOD_BLOCO4_EDIT", "mpu_menutree_edita");
-define("MPU_MOD_BLOCO4_TEMPLATE", "mpu_menutree.block.tpl.html");
+define("MPU_MOD_BLOCO4","Menu en Arbol");
+define("MPU_MOD_BLOCO4_DESC","MenÃº en Arbol con submenÃºs");
+define("MPU_MOD_BLOCO4_FILE","mpu_menutree.bloco.php");
+define("MPU_MOD_BLOCO4_SHOW","mpu_menutree_exibe");
+define("MPU_MOD_BLOCO4_EDIT","mpu_menutree_edita");
+define("MPU_MOD_BLOCO4_TEMPLATE","mpu_menutree.block.tpl.html");
 
-define("MPU_MOD_BLOCO5", "Menú Horizontal");
-define("MPU_MOD_BLOCO5_DESC", "Menú Horizontal con Submenús");
-define("MPU_MOD_BLOCO5_FILE", "mpu_menuhor.bloco.php");
-define("MPU_MOD_BLOCO5_SHOW", "mpu_menuhor_exibe");
-define("MPU_MOD_BLOCO5_EDIT", "mpu_menuhor_edita");
-define("MPU_MOD_BLOCO5_TEMPLATE", "mpu_menuhor.block.tpl.html");
+define("MPU_MOD_BLOCO5","MenÃº Horizontal");
+define("MPU_MOD_BLOCO5_DESC","MenÃº Horizontal con SubmenÃºs");
+define("MPU_MOD_BLOCO5_FILE","mpu_menuhor.bloco.php");
+define("MPU_MOD_BLOCO5_SHOW","mpu_menuhor_exibe");
+define("MPU_MOD_BLOCO5_EDIT","mpu_menuhor_edita");
+define("MPU_MOD_BLOCO5_TEMPLATE","mpu_menuhor.block.tpl.html");
 
-define("MPU_MOD_BUSCA_FUNC", "mpu_mpublish_busca");
-define("MPU_MOD_WYSIWYG", "¿Utilizar el editor visual para crear páginas?");
-define("MPU_MOD_WYSIWYG_DESC", "Con el editor visual (WYSIWYG) puede crear facilmente páginas con todos los recursos HTML, sin ningún conocimiento de programación.");
-define("MPU_MOD_WYSIWYG_PATH", "Ruta del Editor");
-define("MPU_MOD_WYSIWYG_BT1B", "Botones del Editor - Inicio Línea 1");
-define("MPU_MOD_WYSIWYG_BT1B_DESC", "Botones que se muestran al principio de la primera línea del editor.");
-define("MPU_MOD_WYSIWYG_BT1", "Botones de Editor - Final Línea 1");
-define("MPU_MOD_WYSIWYG_BT1_DESC", "Botones que se muestran al final de la primera línea del editor.");
-define("MPU_MOD_WYSIWYG_BT2B", "Botones de Editor - Inicio Línea 2");
-define("MPU_MOD_WYSIWYG_BT2B_DESC", "Botones que se muestran al principio de la segunda línea del editor.");
-define("MPU_MOD_WYSIWYG_BT2", "Botones de Editor - Final Línea 2");
-define("MPU_MOD_WYSIWYG_BT2_DESC", "Botones que se muestran al final de la segunda línea del editor.");
-define("MPU_MOD_WYSIWYG_BT3B", "Botones de Editor - Inicio Línea 3");
-define("MPU_MOD_WYSIWYG_BT3B_DESC", "Botones que se muestran al principio de la tercera línea del editor.");
-define("MPU_MOD_WYSIWYG_BT3", "Botones de Editor - Final Línea 3");
-define("MPU_MOD_WYSIWYG_BT3_DESC", "Botones que se muestran al final de la tercera línea del editor.");
-define("MPU_MOD_WYSIWYG_BT4", "Botones de Editor - Línea 4");
-define("MPU_MOD_WYSIWYG_BT4_DESC", "Botones que se muestran en la cuarta línea del editor.");
-define("MPU_MOD_WYSIWYG_PLUGINS", "Módulos del Editor");
-define("MPU_MOD_WYSIWYG_PLUGINS_DESC", "Introduzca los módulos que se utilizarán en el editor (separados por comas ',')");
-define("MPU_MOD_WYSIWYG_PATH_DESC", "Introduzca la ruta de TinyMCE empezando en el raiz del sitio (¡No popner la barra al final!).");
-define("MPU_MOD_WYSIWYG_LANG", "Idioma por defecto del Editor");
-define("MPU_MOD_WYSIWYG_LANG_DESC", "Introduzca el nombre del idioma del editor (Ej.: en). PAra descargar más idiomas, <a href='http://tinymce.moxiecode.com/language.php' target='_blank'>haga clic aqui</a>.");
-define("MPU_MOD_NOMES_ID", "¿Usar texto en vez del ID en la URL?");
-define("MPU_MOD_NOMES_ID_DESC", "Si escoge 'Si' se utilizará el texto del menú en lugar del ID en la URL. El sistema acepta ambas opciones por defecto para cargar una página. Esta opción afecta únicamente a los enlaces generados por el sistema.");
-define("MPU_MOD_MMAXFILESIZE", "Tamaño máximo de los mediso a enviar.");
-define("MPU_MOD_MMAXFILESIZE_DESC", "en Kbytes");
-define("MPU_MOD_MAXFILESIZE", "Tamaño máximo de los ficheros a enviar.");
-define("MPU_MOD_MAXFILESIZE_DESC", "en Kbytes");
-define("MPU_MOD_GZIP", "¿Usar compresión GZIP en el Editor?");
-define("MPU_MOD_GZIP_DESC", "Si su servidor soporta compresión GZIP, este recurso utiliza un script java compactado que permite cargar más rápidamente el editor.<br /><b>¡ATENCION:</b> Para que funcione correctamente, el directorio raiz del editor (definido anteriormente en la opción de configuración '".MPU_MOD_WYSIWYG_PATH."') debe tener permisos de escritura!");
-define("MPU_MOD_CONTENTMIMES", "Extensiones permitidas en el gestor de contenidos.");
-define("MPU_MOD_CONTENTMIMES_DESC", "Seleccione las extensiones permitidas para subir archivos en el gestor de contenidos. Mantenga pulsada la tecla <b>CTRL</b> para selecionar más de una opción.");
-define("MPU_MOD_MIMETYPES", "Extensiones permitidas en el gestor de archivos.");
-define("MPU_MOD_MIMETYPES_DESC", "Seleccione las extensiones permitidas para subir archivos en el gestor de ficheros. Mantenga pulsada la tecla <b>CTRL</b> para selecionar más de una opción.");
-define("MPU_MOD_WYSIWYG_FRMTDATA", "Formato de fechas");
-define("MPU_MOD_WYSIWYG_FRMTDATA_DESC", "<b>%d</b> para 'Día', <b>%m</b> para 'Mes' y <b>%Y</b> para 'Año'");
-define("MPU_MOD_WYSIWYG_FRMTHORA", "Formato de hora");
-define("MPU_MOD_WYSIWYG_FRMTHORA_DESC", "<b>%H</b> para 'Hora', <b>%M</b> para 'Minutos' y <b>%S</b> para 'Segundos'");
-define("MPU_MOD_IFRAME_WIDTH", "Ancho de IFrames");
-define("MPU_MOD_IFRAME_WIDTH_DESC", "Define el ancho (en pixels) para tilizar con los marcos");
-define("MPU_MOD_IFRAME_HEIGHT", "Alto de IFrames");
-define("MPU_MOD_IFRAME_HEIGHT_DESC", "Define el alto (en pixels) para utilizar con los marcos");
-define("MPU_MOD_RELATED", "¿Mostrar enlaces a páginas relacionadas al final de cada página?");
-define("MPU_MOD_RELATED_DESC", "Esta opción permite mostrar los enlaces a laas páginas que pertenecen a la misma categoría que la actual. <br />Puede deshabilitar esta opción si utiliza el bloque 'Páginas Relacionadas'");
-define("MPU_MOD_NAVIGATION", "¿Mostrar la barra de navegación al principio de las páginas?");
-define("MPU_MOD_NAVIGATION_DESC", "Esta opción muestra las opciones de navegación al inicio de cada página. <br />Puede deshabilitar esta opción si utiliza el bloque 'Barra de Navegation'");
-define("MPU_MOD_CAPTCHA", "¿Utilizar CAPTCHA en los comentarios?");
-define("MPU_MOD_CAPTCHA_DESC", "<a href='http://en.wikipedia.org/wiki/CAPTCHA' target='_blank'>CAPTCHA</a> es una técnica que solicita al usuario que escriba una secuencia de letras o números que se muestran en un recuadro antes de enviar un comentario para evitar que el sistema sea utilizado por robots (se necesita la ibrería GD).");
-define("MPU_MOD_CAPTCHA_LABEL", "Código de Seguridad");
-define("MPU_MOD_CAPTCHA_ERROR", "¡Código de seguridad no válido!<br /> Pruebe otra vez");
-define("MPU_MOD_HIGHLIGHT_SEARCH", "<b style='color: red'>Se han resaltado los siguientes términos de búsqueda:</b> ");
+define("MPU_MOD_BUSCA_FUNC","mpu_mpublish_busca");
+define("MPU_MOD_WYSIWYG","Â¿Utilizar el editor visual para crear pÃ¡ginas?");
+define("MPU_MOD_WYSIWYG_DESC","Con el editor visual (WYSIWYG) puede crear facilmente pÃ¡ginas con todos los recursos HTML, sin ningÃºn conocimiento de programaciÃ³n.");
+define("MPU_MOD_WYSIWYG_PATH","Ruta del Editor");
+define("MPU_MOD_WYSIWYG_BT1B","Botones del Editor - Inicio LÃ­nea 1");
+define("MPU_MOD_WYSIWYG_BT1B_DESC","Botones que se muestran al principio de la primera lÃ­nea del editor.");
+define("MPU_MOD_WYSIWYG_BT1","Botones de Editor - Final LÃ­nea 1");
+define("MPU_MOD_WYSIWYG_BT1_DESC","Botones que se muestran al final de la primera lÃ­nea del editor.");
+define("MPU_MOD_WYSIWYG_BT2B","Botones de Editor - Inicio LÃ­nea 2");
+define("MPU_MOD_WYSIWYG_BT2B_DESC","Botones que se muestran al principio de la segunda lÃ­nea del editor.");
+define("MPU_MOD_WYSIWYG_BT2","Botones de Editor - Final LÃ­nea 2");
+define("MPU_MOD_WYSIWYG_BT2_DESC","Botones que se muestran al final de la segunda lÃ­nea del editor.");
+define("MPU_MOD_WYSIWYG_BT3B","Botones de Editor - Inicio LÃ­nea 3");
+define("MPU_MOD_WYSIWYG_BT3B_DESC","Botones que se muestran al principio de la tercera lÃ­nea del editor.");
+define("MPU_MOD_WYSIWYG_BT3","Botones de Editor - Final LÃ­nea 3");
+define("MPU_MOD_WYSIWYG_BT3_DESC","Botones que se muestran al final de la tercera lÃ­nea del editor.");
+define("MPU_MOD_WYSIWYG_BT4","Botones de Editor - LÃ­nea 4");
+define("MPU_MOD_WYSIWYG_BT4_DESC","Botones que se muestran en la cuarta lÃ­nea del editor.");
+define("MPU_MOD_WYSIWYG_PLUGINS","MÃ³dulos del Editor");
+define("MPU_MOD_WYSIWYG_PLUGINS_DESC","Introduzca los mÃ³dulos que se utilizarÃ¡n en el editor (separados por comas ',')");
+define("MPU_MOD_WYSIWYG_PATH_DESC","Introduzca la ruta de TinyMCE empezando en el raiz del sitio (Â¡No popner la barra al final!).");
+define("MPU_MOD_WYSIWYG_LANG","Idioma por defecto del Editor");
+define("MPU_MOD_WYSIWYG_LANG_DESC","Introduzca el nombre del idioma del editor (Ej.: en). PAra descargar mÃ¡s idiomas, <a href='http://tinymce.moxiecode.com/language.php' target='_blank'>haga clic aqui</a>.");
+define("MPU_MOD_NOMES_ID","Â¿Usar texto en vez del ID en la URL?");
+define("MPU_MOD_NOMES_ID_DESC","Si escoge 'Si' se utilizarÃ¡ el texto del menÃº en lugar del ID en la URL. El sistema acepta ambas opciones por defecto para cargar una pÃ¡gina. Esta opciÃ³n afecta Ãºnicamente a los enlaces generados por el sistema.");
+define("MPU_MOD_MMAXFILESIZE","TamaÃ±o mÃ¡ximo de los mediso a enviar.");
+define("MPU_MOD_MMAXFILESIZE_DESC","en Kbytes");
+define("MPU_MOD_MAXFILESIZE","TamaÃ±o mÃ¡ximo de los ficheros a enviar.");
+define("MPU_MOD_MAXFILESIZE_DESC","en Kbytes");
+define("MPU_MOD_GZIP","Â¿Usar compresiÃ³n GZIP en el Editor?");
+define("MPU_MOD_GZIP_DESC","Si su servidor soporta compresiÃ³n GZIP, este recurso utiliza un script java compactado que permite cargar mÃ¡s rÃ¡pidamente el editor.<br /><b>Â¡ATENCION:</b> Para que funcione correctamente, el directorio raiz del editor (definido anteriormente en la opciÃ³n de configuraciÃ³n '".MPU_MOD_WYSIWYG_PATH."') debe tener permisos de escritura!");
+define("MPU_MOD_CONTENTMIMES","Extensiones permitidas en el gestor de contenidos.");
+define("MPU_MOD_CONTENTMIMES_DESC","Seleccione las extensiones permitidas para subir archivos en el gestor de contenidos. Mantenga pulsada la tecla <b>CTRL</b> para selecionar mÃ¡s de una opciÃ³n.");
+define("MPU_MOD_MIMETYPES","Extensiones permitidas en el gestor de archivos.");
+define("MPU_MOD_MIMETYPES_DESC","Seleccione las extensiones permitidas para subir archivos en el gestor de ficheros. Mantenga pulsada la tecla <b>CTRL</b> para selecionar mÃ¡s de una opciÃ³n.");
+define("MPU_MOD_WYSIWYG_FRMTDATA","Formato de fechas");
+define("MPU_MOD_WYSIWYG_FRMTDATA_DESC","<b>%d</b> para 'DÃ­a', <b>%m</b> para 'Mes' y <b>%Y</b> para 'AÃ±o'");
+define("MPU_MOD_WYSIWYG_FRMTHORA","Formato de hora");
+define("MPU_MOD_WYSIWYG_FRMTHORA_DESC","<b>%H</b> para 'Hora', <b>%M</b> para 'Minutos' y <b>%S</b> para 'Segundos'");
+define("MPU_MOD_IFRAME_WIDTH","Ancho de IFrames");
+define("MPU_MOD_IFRAME_WIDTH_DESC","Define el ancho (en pixels) para tilizar con los marcos");
+define("MPU_MOD_IFRAME_HEIGHT","Alto de IFrames");
+define("MPU_MOD_IFRAME_HEIGHT_DESC","Define el alto (en pixels) para utilizar con los marcos");
+define("MPU_MOD_RELATED","Â¿Mostrar enlaces a pÃ¡ginas relacionadas al final de cada pÃ¡gina?");
+define("MPU_MOD_RELATED_DESC","Esta opciÃ³n permite mostrar los enlaces a laas pÃ¡ginas que pertenecen a la misma categorÃ­a que la actual. <br />Puede deshabilitar esta opciÃ³n si utiliza el bloque 'PÃ¡ginas Relacionadas'");
+define("MPU_MOD_NAVIGATION","Â¿Mostrar la barra de navegaciÃ³n al principio de las pÃ¡ginas?");
+define("MPU_MOD_NAVIGATION_DESC","Esta opciÃ³n muestra las opciones de navegaciÃ³n al inicio de cada pÃ¡gina. <br />Puede deshabilitar esta opciÃ³n si utiliza el bloque 'Barra de Navegation'");
+define("MPU_MOD_CAPTCHA","Â¿Utilizar CAPTCHA en los comentarios?");
+define("MPU_MOD_CAPTCHA_DESC","<a href='http://en.wikipedia.org/wiki/CAPTCHA' target='_blank'>CAPTCHA</a> es una tÃ©cnica que solicita al usuario que escriba una secuencia de letras o nÃºmeros que se muestran en un recuadro antes de enviar un comentario para evitar que el sistema sea utilizado por robots (se necesita la ibrerÃ­a GD).");
+define("MPU_MOD_CAPTCHA_LABEL","CÃ³digo de Seguridad");
+define("MPU_MOD_CAPTCHA_ERROR","Â¡CÃ³digo de seguridad no vÃ¡lido!<br /> Pruebe otra vez");
+define("MPU_MOD_HIGHLIGHT_SEARCH","<b style='color: red'>Se han resaltado los siguientes tÃ©rminos de bÃºsqueda:</b> ");
 
-// Administração - Menu
-define('MPU_MOD_MENU_ADD','Añadir Contenido');
+// AdministraÃ§Ã£o - Menu
+define('MPU_MOD_MENU_ADD','AÃ±adir Contenido');
 define('MPU_MOD_MENU_LNK','Gestionar ficheros HTML');
 define('MPU_MOD_MENU_LST','Gestionar Contenidos');
 define('MPU_MOD_MENU_MED','Medios');
@@ -131,23 +131,23 @@ define('MPU_HTML_URL', XOOPS_URL."/modules/".MPU_MOD_DIR."/html");
 define('MPU_HTML_PATH', XOOPS_ROOT_PATH."/modules/".MPU_MOD_DIR."/html");
 
 //V1.1
-define("MPU_MOD_CANEDIT", "Can the authors edit their own pages?");
-define("MPU_MOD_CANEDIT_DESC", "Select 'yes so that the author can edit their own pages (even not beeing in the webmaster group).");
-define("MPU_MOD_CANCREATE", "Can the authors create sub-pages?");
-define("MPU_MOD_CANCREATE_DESC", "Select 'yes so that the author can create sub-pages inside their own pages (even not beeing in the webmaster group).");
-define("MPU_MOD_CANDELETE", "Can the authors delete their own pages? Os autores podem excluir as próprias páginas?");
-define("MPU_MOD_CANDELETE_DESC", "Select 'yes so that the author can delete their own pages (even not beeing in the webmaster group) .");
+define("MPU_MOD_CANEDIT","Can the authors edit their own pages?");
+define("MPU_MOD_CANEDIT_DESC","Select 'yes so that the author can edit their own pages (even not beeing in the webmaster group).");
+define("MPU_MOD_CANCREATE","Can the authors create sub-pages?");
+define("MPU_MOD_CANCREATE_DESC","Select 'yes so that the author can create sub-pages inside their own pages (even not beeing in the webmaster group).");
+define("MPU_MOD_CANDELETE","Can the authors delete their own pages? Os autores podem excluir as prÃ³prias pÃ¡ginas?");
+define("MPU_MOD_CANDELETE_DESC","Select 'yes so that the author can delete their own pages (even not beeing in the webmaster group) .");
 
-define("MPU_MOD_BLOCO6", "Related Pages Menu");
-define("MPU_MOD_BLOCO6_DESC", "Menu containing related pages in relation to the current one");
-define("MPU_MOD_BLOCO6_FILE", "mpu_menurelated.bloco.php");
-define("MPU_MOD_BLOCO6_SHOW", "mpu_menurelated_exibe");
-define("MPU_MOD_BLOCO6_EDIT", "mpu_menurelated_edita");
-define("MPU_MOD_BLOCO6_TEMPLATE", "mpu_menurelated.block.tpl.html");
+define("MPU_MOD_BLOCO6","Related Pages Menu");
+define("MPU_MOD_BLOCO6_DESC","Menu containing related pages in relation to the current one");
+define("MPU_MOD_BLOCO6_FILE","mpu_menurelated.bloco.php");
+define("MPU_MOD_BLOCO6_SHOW","mpu_menurelated_exibe");
+define("MPU_MOD_BLOCO6_EDIT","mpu_menurelated_edita");
+define("MPU_MOD_BLOCO6_TEMPLATE","mpu_menurelated.block.tpl.html");
 
 
-define("MPU_MOD_WYSIWYG_BKG", "Use white background in the editor?");
-define("MPU_MOD_WYSIWYG_BKG_DESC", "By activating this option the editor's background will be always white and willnot inherited the configurations from you current theme.");
+define("MPU_MOD_WYSIWYG_BKG","Use white background in the editor?");
+define("MPU_MOD_WYSIWYG_BKG_DESC","By activating this option the editor's background will be always white and willnot inherited the configurations from you current theme.");
 
-define("MPU_MOD_HOME_ID", "Main Page ID");
-define("MPU_MOD_HOME_ID_DESC", "Enter the Page ID that will open as the default page when entering the module. Leave it blank so that the last inserted page becomes the main page.");
+define("MPU_MOD_HOME_ID","Main Page ID");
+define("MPU_MOD_HOME_ID_DESC","Enter the Page ID that will open as the default page when entering the module. Leave it blank so that the last inserted page becomes the main page.");
